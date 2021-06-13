@@ -20,7 +20,7 @@ This contains the java code for the main activity where these fragments are loca
 
 This contains the helper java code for the Date Picker Dialog Fragment which is later called in the main activity.
 
-[Time Picker Helper](/app/src/main/java/com/babasxn/datetimepickerdialog/TimePickerHelper.java)
+[Time Picker Helper](/app/src/main/java/com/babasxn/datetimepickerdialog/timePickerHelper.java)
 
 This contains the helper java code for the Time Picker Dialog Fragment which is later called in the main activity.
 
