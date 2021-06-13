@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="186dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="DD/MM/YYYY"
+        android:inputType="text"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTime"
+        android:layout_width="189dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="244dp"
+        android:ems="10"
+        android:hint="12:00 AM"
+        android:inputType="text"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="360dp"
+        android:text="Show"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDateShow"
+        android:layout_width="195dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="528dp"
+        android:text="Date will show here"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTimeShow"
+        android:layout_width="195dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="592dp"
+        android:text="Time will show here"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDatePick"
+        android:layout_width="124dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="142dp"
+        android:text="Date"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTimePick"
+        android:layout_width="126dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="246dp"
+        android:text="Time"
+        android:textSize="20sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="48dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="586dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_recent_history" />
+
+    <ImageView
+        android:id="@+id/imageViewTime"
+        android:layout_width="49dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="520dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_today" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDate"
+        android:layout_width="46dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="140dp"
+        android:contentDescription="TODO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_day" />
+
+    <ImageButton
+        android:id="@+id/imageButtonTime"
+        android:layout_width="43dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="244dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
