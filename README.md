@@ -24,7 +24,7 @@ This contains the helper java code for the Date Picker Dialog Fragment which is 
 
 This contains the helper java code for the Time Picker Dialog Fragment which is later called in the main activity.
 
-[Main Activity XML](DateTimePickerDialog/app/src/main/res/layout/activity_main.xml)
+[Main Activity XML](/app/src/main/res/layout/activity_main.xml)
 
 This contains the XML attributes for the design and widgets. 
 
