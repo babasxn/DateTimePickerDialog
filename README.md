@@ -1,8 +1,8 @@
 # DateTimePickerDialog
-Tutorial on how to crate a Date and Time Picker Dialog in Android Studio using Java
+Tutorial on how to create a Date and Time Picker Dialog in Android Studio using Java
 
 
-So I was working on a scheduler app (to be released soon) in which I had to add an UI utility where the user could easily add Date and Time to the the record, rather than typing it which could cause inconsistencies in the database.
+So I was working on a scheduler app (to be released soon) in which I had to add an UI utility where the user could easily add Date and Time to the record, rather than typing it which could cause inconsistencies in the database.
 
 I searched it in the documentation, stackoverflow etc but there were complex/vague information for both the dialog fragments. I somehow combined few of the codes to make the helpers and support methods for both the dialog listeners. So here it is, Happy Developing!
 
